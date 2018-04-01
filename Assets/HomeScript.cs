@@ -1,0 +1,19 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+
+public class HomeScript : MonoBehaviour {
+	private Button button;
+	void Awake(){
+		button = GetComponent<Button>();
+
+		button.onClick.AddListener (OnClick);
+	}
+	void OnClick(){
+		
+		PlayerPrefs.SetInt("Scene",SceneManager.GetActiveScene().buildIndex);
+		UnityEngine.SceneManagement.SceneManager.LoadScene (3);
+	}
+}

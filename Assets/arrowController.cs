@@ -17,9 +17,10 @@ public class arrowController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		float targetDirection = 270 - Input.compass.trueHeading;
+		float targetDirection = 0 - Input.compass.trueHeading;
 		Debug.Log("true heading is " + targetDirection);
-		transform.rotation = Quaternion.Euler(-135, 0, 90+ targetDirection);
+//		transform.rotation = Quaternion.Euler(-135, 0, 90+ targetDirection);
+		transform.rotation = Quaternion.Slerp(transform.rotation,Quaternion.Euler(-135, 0, 90+ targetDirection),Time.deltaTime*2);
 //		gameObject.transform.rotation  = Input.gyro.attitude;
 
 	}

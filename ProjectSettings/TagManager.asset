@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - DoneButton
+  - ChildText
+  - SeniorText
+  - Phone
+  - Name
+  - Toggle
   layers:
   - Default
   - TransparentFX
