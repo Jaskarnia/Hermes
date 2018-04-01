@@ -10,6 +10,8 @@ TagManager:
   - Phone
   - Name
   - Toggle
+  - HomeButton
+  - debugbtn
   layers:
   - Default
   - TransparentFX

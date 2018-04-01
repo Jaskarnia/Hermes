@@ -24,10 +24,13 @@ public class DoneButtonScript : MonoBehaviour {
 		PlayerPrefs.SetString ("Location", location.text);
 		if (toggle.isOn) {
 			PlayerPrefs.SetString ("Child", "false");
+			UnityEngine.SceneManagement.SceneManager.LoadScene (2);
 		} else {
 			PlayerPrefs.SetString ("Child", "true");
+			UnityEngine.SceneManagement.SceneManager.LoadScene (1);
 		}
-		UnityEngine.SceneManagement.SceneManager.LoadScene (1);
+
+
 	}
 
 }

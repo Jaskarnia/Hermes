@@ -260,6 +260,7 @@ GameObject:
   - component: {fileID: 463434773}
   - component: {fileID: 463434772}
   - component: {fileID: 463434771}
+  - component: {fileID: 463434775}
   m_Layer: 5
   m_Name: Home Button
   m_TagString: Untagged
@@ -371,6 +372,17 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 463434769}
+--- !u!114 &463434775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 463434769}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78c614ba210bb40aabdd5d6cebfb0868, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &498278481
 GameObject:
   m_ObjectHideFlags: 0
@@ -877,13 +889,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 2083334811}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1f2f34788ed3542e89d02a97b2e8b403, type: 3}
+  m_Script: {fileID: 11500000, guid: d0e8665a8c95a44318e015c4152285e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: {fileID: 0}
-  number: {fileID: 0}
-  location: {fileID: 0}
-  toggle: {fileID: 0}
 --- !u!114 &2083334814
 MonoBehaviour:
   m_ObjectHideFlags: 0

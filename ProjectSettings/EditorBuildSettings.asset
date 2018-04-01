@@ -17,3 +17,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/main.unity
     guid: 990ce8169b52a430caed63f2b3ff153e
+  - enabled: 1
+    path: Assets/Scenes/familyscene.unity
+    guid: 590bee300e81e4d349d3d9941771a766
+  - enabled: 1
+    path: Assets/Scenes/extrascene.unity
+    guid: a578fa1baa5ec4dc282819e02ce402cc
